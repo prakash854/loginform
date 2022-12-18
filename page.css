@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height:100vh;
+    background-color:fuchsia;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.link{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color:blue;
+
+}
+.form{
+    position: relative;
+    width: 350px;
+    height:380px;
+    background-color: white;
+    box-shadow: plum;
+}
+.formheader{
+    border-radius: 8px 8px 0px 0px ;
+    background-color:azure;
+    padding: 10px;
+    text-align: center;
+
+}
+.form-body{
+    padding: 0px 0px 0px 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+
+}
+.field{
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+    padding: 10px 20px;
+    border: 5px solid black;
+    outline:none;
+    border-radius: 30px;
+    margin: 10px 0px;
+}
+button{
+
+    padding:8px;
+    border:none;
+    outline:none;
+    width: 300px;
+    background-color:blue;
+    color: white;
+    border-radius:30px;
+    font-size: 20px;
+    
+}
+.forgot{
+    float: right;
+}
+.options{
+    padding: 0px 10px;
+    margin: 15px 0 25px;
+
+}
+.form-footer{
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+.remember{
+    margin-right: 5px;
+}
+.loader{
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color:#ffffff ;
+    animation: an1 1s ease infinite;
+}
+@keyframes an1{
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+  .loading {
+    padding: 0px;
+    border: 2px solid rgb(204, 204, 204);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-top-color:red ;
+    border-left-color:  #1ecd97;
+    animation: spin 1s infinite ease-in;
+  }
+  
+
+  .spinner-displayer{
+    
+   background-color: blueviolet;
+
+  }
+  .col{
+
+    margin: 0px;
+    padding: 10px;
+  }
+  .login{
+    width: 312px;
+    background-color: rgb(96, 70, 180);
+    border: 0;
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+  }
+#check{
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type="checkbox"]{
+    width: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
